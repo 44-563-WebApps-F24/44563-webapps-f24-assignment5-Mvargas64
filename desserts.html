@@ -14,7 +14,7 @@
     integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </head>
 <body>
-  
+
    <!-- Navigation Bar -->
    <nav class="navbar navbar-expand-md navbar-light bg-light">
     <a class="navbar-brand" href="desserts.html">Dessert Options</a>
@@ -163,6 +163,31 @@
     <a class="dropdown-item" href="advanced.html">advance page</a>
   </div>
 </div>
+
+ <!-- Form -->
+ <form>
+  <!-- First Form Group: Email Input -->
+  <div class="form-group">
+      <label for="email">Email address</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+      <small class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  
+  <!-- Second Form Group: Dessert Input -->
+  <div class="form-group">
+      <label for="dessert">Dessert</label>
+      <input type="text" class="form-control" id="dessert" placeholder="Enter your dessert" required>
+  </div>
+  
+  <!-- Third Form Group: Checkbox for Newsletter Signup -->
+  <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="newsletter">
+      <label class="form-check-label" for="newsletter">Sign up for newsletter?</label>
+  </div>
+
+  <!-- Submit Button -->
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
 
 </body>
 </html>
